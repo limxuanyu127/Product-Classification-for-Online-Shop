@@ -10,10 +10,10 @@ The project focuses on 3 different methodologies to combine text and image ML mo
 ### 1. Multiple screenings for text models
 There are different methods for categorising our items(data) based on their text description. Instead of using them individually, we decided to use them sequentially.
 
-**1a. String-matching + NN**
+**1a. String-matching + NN**:
   We deduced that String-Matching is a simple yet highly effective way to categorise items, as long as we set a high threshold. Items who remain unclassified (because of poor text description and thus low score based on the fuzzywuzzy library) will then be predicted using a trained neural network model. 
 
-**1b. Parent Categories**
+**1b. Parent Categories**:
   We first predcit the broad categories of the items (eg. Dress, Top) before predicting their specific sub-category (eg. Wedding Dress, T-shirt, Blouse etc.)
 
 ### 2. Ensemble Learning
