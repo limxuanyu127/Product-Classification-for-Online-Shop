@@ -20,3 +20,4 @@ There are different methods for categorising our items(data) based on their text
 Aggregate the outputs of various text and image classifiers that we have trained.
 
 ### 3. Concatenation
+Form a new model by concatenating an image and text model, before adding a final layer with an activation function to normalise the results.
